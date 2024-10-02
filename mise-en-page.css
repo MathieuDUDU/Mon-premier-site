@@ -1,0 +1,16 @@
+h1 {
+    color:blue;
+text-align:center;
+font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+img {
+    width:30% ;
+}
+
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span {
+    color: firebrick;
+}
