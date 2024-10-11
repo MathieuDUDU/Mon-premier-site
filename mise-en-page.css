@@ -1,12 +1,12 @@
-header { height:50vh;}
-h1 { 
+header { height:30vh;display: flex; justify-content: center; align-items: start;}
+h1 {
     color:blue;
-text-align:center;
+text-align:center;;
 font-family:Georgia, 'Times New Roman', Times, serif; 
-border:5px solid blue;
-padding: 20px;
+border:5px solid blue; border-radius: 50px;
+padding: 10px; 
 }
-
+div.centrage  {display: flex; justify-content: center;max-width: 800px;}
 img {
     width:30% ;
 }
