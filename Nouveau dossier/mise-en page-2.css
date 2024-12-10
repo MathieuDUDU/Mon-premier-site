@@ -1,5 +1,12 @@
 header { height:30vh;display: flex; justify-content: center; align-items: start;}
 a{color: black;}
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.384), rgba(20, 48, 139, 0.719)),
+    url(wp-lba2-pc2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 h1 {
     background-color:rgba(168, 220, 255, 0.74);
@@ -14,9 +21,17 @@ color: red;
 }
 p {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+    font-size: large;
 }
 
 img{
+    padding: 5%;
+    width: 30%;
+    background-clip: padding-box;
+    background-color: bisque;
+    border-radius:50%;
+    padding: 30px;
     width: 20%;
     padding:1%
 }
@@ -25,6 +40,9 @@ img{
 }
 #image3{
     width: 50%;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .text-align{
     width: 70%;
@@ -41,25 +59,27 @@ img{
     justify-content: center;
    align-items: center;
    margin: 0;
-   list-style: none;
-   gap: 20px;
+   list-style:none;
+   gap: 350px;
    padding: 0;
    font-size: 25px;
    width: 100%;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+#menu ul :hover{
+    color: white;
 }
 #menu button {
     background-color: transparent;
-    flex-shrink: 0;
     width: 50px;
-    display: none;
-    transition: margin-top 1s;
 }
 #menu button img{
     width: 100%;
 }
 
 #menu {
-    background: rgba(5, 62, 116, 0.6);
+    background: rgba(22, 158, 192, 0.6);
     height: 35px; 
     width: 100%;
     top: 100px; left:100px;
@@ -68,4 +88,32 @@ img{
 }
 #menu a{
     color: black;
+    }
+
+    .bas_de_page {
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        align-items: center;
+        gap: 350px;
+    
+        font-size: 25px;
+        width: 100%;
+       
+        background-color: rgb(127, 150, 255);
+        background-size: contain;
+      
+}    
+
+    .bas_de_page ul{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        align-items: center;
+        list-style: none;
+        gap: 350px;
+        padding: 0;
+        font-size: 25px;
+        width: 100%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
